@@ -1,5 +1,8 @@
 # DmLab_TypesenseIndexer
 
+[![CI](https://github.com/dmlab-work/module-typesense-indexer/actions/workflows/ci.yml/badge.svg)](https://github.com/dmlab-work/module-typesense-indexer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dmlab-work/module-typesense-indexer/graph/badge.svg)](https://codecov.io/gh/dmlab-work/module-typesense-indexer) [![Packagist](https://img.shields.io/packagist/v/dmlab/module-typesense-indexer)](https://packagist.org/packages/dmlab/module-typesense-indexer) [![Downloads](https://img.shields.io/packagist/dt/dmlab/module-typesense-indexer)](https://packagist.org/packages/dmlab/module-typesense-indexer)
+![License](https://img.shields.io/badge/license-OSL--3.0-green) ![Magento](https://img.shields.io/badge/Magento-2.4-orange) ![PHP](https://img.shields.io/badge/PHP-8.3--8.5-blue)
+
 Turns the Magento catalog into Typesense documents and owns the **attribute → schema policy**
 (L1 of the Typesense suite). It implements Magento's indexer contracts
 (`IndexStructureInterface`, `SaveHandler\IndexerInterface`), so the standard
